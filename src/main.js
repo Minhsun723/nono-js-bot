@@ -43,7 +43,7 @@ client.on('ready',(c) => {
     setInterval(() => {
         let random = Math.floor(Math.random() * status.length);
         client.user.setActivity(status[random]);
-    }, 5000)
+    }, 10000)
 })
 
 
